@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<Angelo Sales>*
-- Email: *\<angelogustavo157@gmail.com>*
-- Turma: *\<IMD0030-T01>*
+- Nome: *Angelo Sales*
+- Email: *angelogustavo157@gmail.com*
+- Turma: *IMD0030-T01*
 
 # Questões Finalizadas
 
