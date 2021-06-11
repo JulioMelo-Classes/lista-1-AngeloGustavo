@@ -6,7 +6,16 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    int i,n,num,qtd;
+    
+    for(i=0;i<5;i++){
+      cin >> num;
+      if(num<0){
+        qtd++;
+      }
+    }
+
+    cout << qtd <<"\n";
 
     return 0;
 }
