@@ -10,7 +10,21 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+  int m,n,i,soma=0;
+  cin >> m;
+  cin >> n;
 
-    return 0;
+  if(n==0)
+    cout << m <<"\n";
+  else if(n>0){
+    for(i=m; i<m+n; i++)
+      soma+=i;
+    cout << soma <<"\n";
+  }else{
+    for(i=m; i>m+n; i--)
+      soma+=i;
+    cout << soma <<"\n";
+  }
+
+  return 0;
 }
