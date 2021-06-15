@@ -12,16 +12,16 @@
 
 std::pair<int,int> min_max( int V[], std::size_t n )
 {  
-    int i,min=0,max=n; 
+    int i,min=0,max=n-1; 
+    if(min==n)
+      min=-1;
 
     for(i=0; i<n; i++){
-      if(V[i]<min)
+      if(V[i]<V[min])
         min=i;
-      if(V[i]>=max)
+      if(V[i]>=V[max])
         max=i;
     }
-    // TODO: adicione o seu código aqui.
-
-    // TODO: Isto é apenas um STUB. Troque o retorno pelo que você julgar correto.
+   
     return {min, max};
 }
