@@ -6,7 +6,7 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    int i,n,num,qtd;
+    int i,n,num,qtd=0;
     
     for(i=0;i<5;i++){
       cin >> num;
