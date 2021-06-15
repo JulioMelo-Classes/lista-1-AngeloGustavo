@@ -22,6 +22,6 @@ std::pair<int,int> min_max( int V[], std::size_t n )
       if(V[i]>=V[max])
         max=i;
     }
-   
+  
     return {min, max};
 }
