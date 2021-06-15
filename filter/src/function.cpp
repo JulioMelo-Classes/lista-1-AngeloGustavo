@@ -14,7 +14,6 @@
  */
 int * filter( int * first, int * last )
 {
-    // TODO: coloque aqui o seu código-solução.
     int cont=0;
 
     for(int *i=first; i<last; i++)
