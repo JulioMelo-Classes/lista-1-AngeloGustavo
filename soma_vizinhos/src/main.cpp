@@ -11,9 +11,9 @@ using std::endl;
 int main( void )
 {
   int m,n,i,soma;
-
   while( cin >> std::ws >> m  
   >> std::ws >> n){
+
     soma=0;
 
     if(n==0)
