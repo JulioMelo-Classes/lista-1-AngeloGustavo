@@ -34,13 +34,12 @@ int main( void )
   int res,aux;
   Ponto R1,R2,P;
   int x1,y1,x2,y2,px,py;
-  while( (cin >> std::ws >> R1.x) 
-  && (cin >> std::ws >> R1.y)
-  && (cin >> std::ws >> R2.x)
-  && (cin >> std::ws >> R2.y)
-  && (cin >> std::ws >> P.x)
-  && (cin >> std::ws >> P.y)) {
-    //cout << x1 << y1 << x2 << y2 << px << py <<endl;
+  while( cin >> std::ws >> R1.x  
+  >> std::ws >> R1.y
+  >> std::ws >> R2.x
+  >> std::ws >> R2.y
+  >> std::ws >> P.x
+  >> std::ws >> P.y) {
     if(R1.x>R2.x){
       aux = R1.x;
       R1.x = R2.x;
@@ -58,7 +57,7 @@ int main( void )
       if(res==0)
         cout << "inside\n";
       else if(res==1)
-        cout << "border \n";
+        cout << "border\n";
       else
         cout << "outside\n";
     }
