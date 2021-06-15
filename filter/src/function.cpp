@@ -17,13 +17,13 @@ int * filter( int * first, int * last )
     // TODO: coloque aqui o seu código-solução.
     int cont=0;
 
-    for(int *i=first; i<=last; i++)
+    for(int *i=first; i<last; i++)
       if(*i>0)
         cont++;
 
-    for(int *i=first; i<=last; i++)
+    for(int *i=first; i<last; i++)
       if(*i<=0)
-        for(int *j=i; j<=last; j++)
+        for(int *j=i; j<last; j++)
           if(*j>0){
             *i=*j;
             *j=0;
