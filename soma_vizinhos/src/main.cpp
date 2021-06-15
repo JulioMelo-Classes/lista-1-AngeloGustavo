@@ -10,20 +10,23 @@ using std::endl;
 
 int main( void )
 {
-  int m,n,i,soma=0;
-  cin >> m;
-  cin >> n;
+  int m,n,i,soma;
 
-  if(n==0)
-    cout << m <<"\n";
-  else if(n>0){
-    for(i=m; i<m+n; i++)
-      soma+=i;
-    cout << soma <<"\n";
-  }else{
-    for(i=m; i>m+n; i--)
-      soma+=i;
-    cout << soma <<"\n";
+  while( cin >> std::ws >> m  
+  >> std::ws >> n){
+    soma=0;
+
+    if(n==0)
+      cout << m <<"\n";
+    else if(n>0){
+      for(i=m; i<m+n; i++)
+        soma+=i;
+      cout << soma <<"\n";
+    }else{
+      for(i=m; i>m+n; i--)
+        soma+=i;
+      cout << soma <<"\n";
+    }
   }
 
   return 0;
