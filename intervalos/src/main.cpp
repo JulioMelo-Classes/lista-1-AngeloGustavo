@@ -1,4 +1,4 @@
-1/*!
+/*!
  * @brief This code implements the Intervalos programming problem
  * @author selan
  * @data June, 6th 2021
@@ -31,11 +31,11 @@ int main( void )
       fora++;
     total++;
   }
-  std::cout << std::setprecision(4) << (100/total)*r1 <<" ";
-  std::cout << std::setprecision(4) << (100/total)*r2 <<" ";
-  std::cout << std::setprecision(4) << (100/total)*r3 <<" ";
-  std::cout << std::setprecision(4) << (100/total)*r4 <<" ";
-  std::cout << std::setprecision(4) << (100/total)*fora <<"\n";
+  std::cout << std::setprecision(4) << (100/total)*r1 <<endl;
+  std::cout << std::setprecision(4) << (100/total)*r2 <<endl;
+  std::cout << std::setprecision(4) << (100/total)*r3 <<endl;
+  std::cout << std::setprecision(4) << (100/total)*r4 <<endl;
+  std::cout << std::setprecision(4) << (100/total)*fora <<endl;
 
   return 0;
 }
