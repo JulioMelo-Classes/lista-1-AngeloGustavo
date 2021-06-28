@@ -13,6 +13,7 @@ using std::setprecision;
 
 // Se desejar, crie funções aqui, antes do main().
 
+/*blz*/
 int main( void )
 {
   double x,r1,r2,r3,r4,fora,total;

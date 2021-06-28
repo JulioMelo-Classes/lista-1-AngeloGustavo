@@ -9,7 +9,9 @@
  *
  * @return A pair of indexes to the first smallest and last largest values.
  */
-
+/*
+blz
+*/
 std::pair<int,int> min_max( int V[], std::size_t n )
 {  
     int i,min=0,max=n-1; 

@@ -28,18 +28,34 @@ int pt_in_rect ( const Ponto *R1, const Ponto *R2, const Ponto *P ){
 }
 // Coloque aqui qualquer função auxiliar que desejar.
 
+/*não pq você não modularizou usando o function.h, vou considerar 80% uma vez que era um dos objetivos da questão
+a indentação daquele while com vários cins está bem ruim também,
+nesse caso a prática "melhor" é fazer como eu coloquei pra vc*/
 
 int main( void )
 {
   int res,aux;
   Ponto R1,R2,P;
   int x1,y1,x2,y2,px,py;
+/*antes*/
+/*
   while( cin >> std::ws >> R1.x  
   >> std::ws >> R1.y
   >> std::ws >> R2.x
   >> std::ws >> R2.y
   >> std::ws >> P.x
   >> std::ws >> P.y) {
+  */
+/*depois
+  a ideia é alinhar os parâmetros do cin assim não ficam no mesmo nivel do while
+  vc pode colocar as { ali depois do ) mas colocar ela após o bloco deixa ainda mais claro, neste caso*/
+  while( cin >> std::ws >> R1.x  
+             >> std::ws >> R1.y
+             >> std::ws >> R2.x
+             >> std::ws >> R2.y
+             >> std::ws >> P.x
+             >> std::ws >> P.y)
+  {
     if(R1.x>R2.x){
       aux = R1.x;
       R1.x = R2.x;

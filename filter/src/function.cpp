@@ -12,6 +12,7 @@
  * @param last Pointer just past the last valid value of the range we want to filter.
  * @return a pointer to the new 'logical' end of the array.
  */
+ /*ok*/
 int * filter( int * first, int * last )
 {
     int cont=0;
@@ -22,7 +23,7 @@ int * filter( int * first, int * last )
 
     for(int *i=first; i<last; i++)
       if(*i<=0)
-        for(int *j=i; j<last; j++)
+        for(int *j=i; j<last; j++) //essa indentação aqui é uma boa forma de adicionar bugs no programa =)
           if(*j>0){
             *i=*j;
             *j=0;

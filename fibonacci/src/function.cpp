@@ -1,5 +1,6 @@
 #include "function.h"
 
+/*blz!*/
 std::vector<unsigned int> fib_below_n( unsigned int n )
 {      
     int n1=1,n2=1,prox; 
